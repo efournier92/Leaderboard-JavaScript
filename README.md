@@ -1,14 +1,14 @@
 #Leaderboard JavaScript 
 
-The NFL is trying to make a hip, lean, up-to-date-with-a-vengeance web stack... and, as a result, they're switching to Javascript. Can you help them again?
+This repo contains an JS application I built to practice writing logic in plain JavaScript. The concept was to input raw data about NFL games, and automatically output a clean and well-styled leaderboard based on the input data.
 
-The NFL has tasked you with building a program that tracks game results as the season progresses. In this assignment, you will build a JS application that prints a leaderboard when your code runs. (For the non-sports fans, a leaderboard is a scoreboard that shows the name, number of wins, and number of losses for each team in the league.) First, define a constructor in JS that returns an object with the following properties:
+The leaderboard contains the following elements.
+* Name
+* Rank (based on wins)
+* Wins (total number of wins)
+* Losses (total number of losses)
 
-- Name
-- Rank (based on wins)
-- Wins (total number of wins)
-- Losses (total number of losses)
-
+My code first defines a constructor that returns an object with the leaderboard elements
 Then, using the data defined in `leaderboard.js`, create an array containing these objects corresponding to each team. You should then iterate through your array and output the name, number of wins, and number of losses for each team. Additionally, teams should be ordered by rank (teams with more wins are ranked and listed higher, teams with the same numbers of wins can be ranked in any order!).
 
 ## Tips:
