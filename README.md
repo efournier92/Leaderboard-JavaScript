@@ -1,4 +1,4 @@
-## Introduction
+#Leaderboard JavaScript 
 
 The NFL is trying to make a hip, lean, up-to-date-with-a-vengeance web stack... and, as a result, they're switching to Javascript. Can you help them again?
 
